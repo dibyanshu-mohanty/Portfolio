@@ -1,0 +1,252 @@
+.Profile {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  float: left;
+  position: absolute;
+  left: 200px;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.Hfive {
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.Logo {
+  width: 40px;
+  margin-left: auto;
+}
+
+.LogoMini {
+  width: 30px;
+  margin-left: 2px;
+}
+
+.B1 {
+  background-image: url("https://wallpaperaccess.com/full/686946.jpg");
+  background-attachment: fixed;
+  margin: 0;
+
+}
+.XD{
+  padding: 240px;
+}
+.T1 {
+  position: absolute;
+  bottom: 10px;
+  left: 650px;
+}
+
+.B2 {
+  margin: 0;
+  position: relative;
+}
+
+.Hone {
+  font-style: italic;
+  font-family: serif;
+  margin-top: 0;
+  margin-bottom:0;
+}
+
+.Pg {
+  font-size: 25px;
+  color: #0f1123;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+}
+
+.Hfive {
+  margin-top: 0;
+margin-bottom: 50px;
+  padding-bottom: 40px;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  font-family: 'Anton', sans-serif;
+}
+
+h2 {
+  margin-top: 0;
+  padding-top: 100px;
+  font-family: 'Anton', sans-serif;
+}
+
+h3 {
+  margin-top: 0;
+  padding-top: 25px;
+}
+
+.T2 {
+  position: absolute;
+  left: 500px;
+  font-size: 20px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.T3 {
+  position: absolute;
+  right: 500px;
+  font-size: 20px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.B3 {
+  margin-top: 550px;
+  text-align: center;
+}
+
+.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  text-shadow: 3px 3px 0 #ffffff;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 22px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 4px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #000000;
+  text-decoration: none;
+}
+
+.B4 {
+  margin-top: 100px;
+  text-align: center;
+  background-color: #ebebeb;
+  padding-bottom: 100px;
+
+
+}
+
+.Hfiv {
+  padding-top: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
+
+.Hfou {
+  padding-top: 30px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+}
+
+.hat {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  position: relative;
+  left: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+.Pg1{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Pg2{
+  width: 25%;
+margin-top: 5px;
+  margin-left: 550px;
+  margin-right: auto;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  padding-left: 40px;
+}
+hr{
+
+  width: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-style: dotted;
+  border-top: 15px;
+  border-width: 7px;
+  border-spacing:  7px;
+  color: #75cfb8;
+}
+.hat1{
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  position: relative;
+  left: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.B5{
+  margin-top: 0;
+  text-align: center;
+  background-image: url("https://dubaiinteriors.ae/wp-content/uploads/2013/10/cool-black-background-design-images-photos-0322130410.jpg");
+  color: #f6f6f6;
+max-width: 100%;
+  margin-bottom: 100px;
+  position: relative;
+  padding-bottom: 100px;
+  height: 1000px;
+
+
+}
+.Table3{
+  width: 50%;
+
+
+}
+.hat2{
+  width:200px;
+  height: 200px;
+  border-radius: 100%
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0f1123;
+  color: white;
+  text-align: center;
+
+}
+
+.navbar{
+  margin:0;
+  overflow: hidden;
+  padding: 6px 24px;
+  text-align: left;
+position: fixed;
+}
+.navbar a{
+  font: serif;
+  font-size: 18px;
+background-color: black;
+text-decoration: none;
+  display: inline-block;
+  color:#f2f2f2;
+  text-align: center;
+  padding: 16px 24px;
+}
+.navbar a:hover{
+  background: #ffbe0f;
+  color: black;
+}
