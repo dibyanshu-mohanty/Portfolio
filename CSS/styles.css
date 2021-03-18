@@ -25,12 +25,14 @@ header{
 }
 body{
   margin:0;
+  background-size: 100% 100%;
 }
 .headbar{
   background-image: url("https://wallpaperaccess.com/full/686946.jpg");
   background-attachment: fixed;
   margin: 0;
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .Hone{
   margin:0;
@@ -228,6 +230,7 @@ hr{
   font-size: 20px;
   font-family: monospace;
   border: 2px solid white;
+  max-width: 100%;
 }
 
 .BTN {
@@ -285,11 +288,15 @@ hr{
   text-align: center;
   background-color:#0a043c;
   width:100%;
-  margin:0;
+  margin: 0;
 }
-@media (max-width: 600px){
-    .headbar{
+@media only screen and (max-width: 500px){
+    body{
       background-size: cover;
+      margin: 0;
+    }
+    .headbar{
+      background-size: 100% 100%;
 
     }
     .navbar ul li{
@@ -299,30 +306,31 @@ hr{
     }
     .Hfour{
         font-size: 28px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .Hone{
         font-size: 48px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .Hfive{
         font-size: 28px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .profile{
         margin-left:120px;
         display: inline-flex;
+        margin-right:0;
     }
     .LogoMini{
       width: 40px;
     }
     h2{
         font-size:32px;
-        margin-left: 40px
+        margin-left: 30px
     }
     h4{
         font-size:28px;
-        margin-left: 40px;
+        margin-left: 30px;
     }
     .Profile{
         margin-left: 200px;
@@ -334,7 +342,7 @@ hr{
         margin-right:80px;
     }
     .ProfileBar{
-        margin-left:40px;
+        margin-left:30px;
         font-size:16px;
         display: flex;
     }
@@ -345,7 +353,7 @@ hr{
         font-size:20px;
     }
     .CV{
-        margin-left:180px;
+        margin-left:160px;
     }
     .btn{
         padding:10px 14px;
@@ -382,7 +390,7 @@ hr{
       width: 50%;
     }
     .MainProject{
-      margin-left: 100px;
+      margin-left: 60px;
     }
     .proj{
       width: 70%;
@@ -396,14 +404,14 @@ hr{
     }
     .Pg4{
       font-size: 20px;
-      margin-left: 150px;
+      margin-left: 130px;
       text-align: center;
     }
     .Pg3{
       font-size: 16px;
     }
     .Text{
-      font-size: 12px;
+      font-size: 10px;
     }
     .foot{
       display: block;
@@ -413,7 +421,7 @@ hr{
       border-radius: 100%;
       width: 20%;
       height: 20%;
-      margin-left: 10px;
+      margin-left: 0;
     }
     .Cpg{
       margin-top: 10px;
