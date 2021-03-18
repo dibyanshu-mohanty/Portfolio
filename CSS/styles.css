@@ -317,7 +317,7 @@ hr{
         margin-left: 20px;
     }
     .profile{
-        margin-left:120px;
+        margin-left:90px;
         display: inline-flex;
         margin-right:0;
     }
@@ -333,7 +333,8 @@ hr{
         margin-left: 30px;
     }
     .Profile{
-        margin-left: 200px;
+        width: 60px;
+        margin-left: 170px;
         float:none;
     }
     .Pg{
@@ -353,35 +354,35 @@ hr{
         font-size:20px;
     }
     .CV{
-        margin-left:160px;
+        margin-left:140px;
     }
     .btn{
         padding:10px 14px;
         font-size: 12px;
     }
     .Achievement ul{
-      margin-left: 150px;
+      margin-left: 120px;
       text-align: center;
 
     }
     .Pg1{
       font-size: 10px;
       text-align: center;
-      margin-right: 150px;
+      margin-right: 140px;
     }
     .hat{
       float: none;
       display: block;
     }
     hr{
-      margin-right: 190px;
+      margin-right: 170px;
       width: 1%;
     }
     .Work ul{
-      margin-left: 150px;
+      margin-left: 120px;
     }
     .Education ul{
-      margin-left: 150px;
+      margin-left: 120px;
     }
     .Pg2{
       font-size: 12px;
@@ -415,7 +416,7 @@ hr{
     }
     .foot{
       display: block;
-      margin-left: 150px;
+      margin-left: 120px;
     }
     .hat1{
       border-radius: 100%;
@@ -428,8 +429,9 @@ hr{
       font-size: 18px;
     }
     .social{
-      margin-left: 10px;
+      margin-left: 30px;
       margin-top: 50px;
+      height: 40px;
     }
     .Pg5{
       font-size: 20px;
