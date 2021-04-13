@@ -14,13 +14,14 @@ header{
 }
 .navbar ul li a{
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: monospace;
   padding: 14px 24px;
+  background-color: #d8e3e7;
 
 }
 .navbar ul li a:hover{
-  background-color: #810000;
+  background-color: #364547;
   color: white;
 }
 body{
@@ -28,7 +29,7 @@ body{
   background-size: 100% 100%;
 }
 .headbar{
-  background-image: url("https://wallpaperaccess.com/full/686946.jpg");
+  background-image: url("https://www.viralgains.com/wp-content/uploads/2018/06/Office-Desk-Black-background-Canva.png");
   background-attachment: fixed;
   margin: 0;
   background-size: 100%;
@@ -58,12 +59,12 @@ body{
   font-family: 'Akaya Telivigala', cursive;
 }
 .profile{
-  margin: 95px 600px;
+  margin: 95px 620px;
   padding-left: 50px;
   padding-bottom: 60px;
 }
 .LogoMini{
-  width: 20%;
+  width: 40px;;
 }
 
 h2{
@@ -210,7 +211,7 @@ hr{
 }
 
 .ContactBar{
-  background-image: url("https://dubaiinteriors.ae/wp-content/uploads/2013/10/cool-black-background-design-images-photos-0322130410.jpg");
+  background-image: url("https://lh6.googleusercontent.com/proxy/2K_WWoeRd6g89_9oaSgBsldJMDxIZq4FgM4quUnc756tFF10C7QHp2Vfc1mgD3iWYtKy4wB4s6m4oX6nlS-sFVz1CHZKDzoQo5mv=s0-d");
   margin-top: 0;
 }
 .forms{
@@ -257,7 +258,8 @@ hr{
   display: inline-flex;
 }
 .hat1{
-  width: 80px;
+  width: 5%;
+  height: 5%;
   margin-left: 80px;
   float: left;
 }
@@ -266,7 +268,7 @@ hr{
   font-size: 18px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: white;
-  padding-top: 10px;
+
 }
 .social{
   margin-left: 600px;
@@ -290,12 +292,16 @@ hr{
   width:100%;
   margin: 0;
 }
+.Thanks{
+  margin: 0;
+}
 @media only screen and (max-width: 500px){
     body{
       background-size: cover;
       margin: 0;
     }
     .headbar{
+      background-image: url("https://i.pinimg.com/736x/2e/76/7e/2e767ee4b8f6618ad4f2ceacce2fe762.jpg");
       background-size: 100% 100%;
 
     }
@@ -303,6 +309,13 @@ hr{
         display:block;
         padding: 12px 16px;
         overflow: hidden;
+    }
+    .navbar ul li a{
+      text-decoration: none;
+      color: black;
+      font-family: monospace;
+      padding: 10px 22px;
+      margin-left: 0;
     }
     .Hfour{
         font-size: 28px;
@@ -317,12 +330,12 @@ hr{
         margin-left: 20px;
     }
     .profile{
-        margin-left:90px;
+        margin-left:28%;
         display: inline-flex;
         margin-right:0;
     }
     .LogoMini{
-      width: 40px;
+      width: 25px;
     }
     h2{
         font-size:32px;
@@ -334,7 +347,7 @@ hr{
     }
     .Profile{
         width: 60px;
-        margin-left: 170px;
+        margin-left: 45%;
         float:none;
     }
     .Pg{
@@ -343,15 +356,21 @@ hr{
         margin-right:80px;
     }
     .ProfileBar{
-        margin-left:30px;
+        margin-left:20px;
         font-size:16px;
         display: flex;
     }
+    .Bio{
+      margin-left: -10px;
+    }
     .Skill ul{
-        margin-left:0;
+        margin-left:-10px;
     }
     .TH{
         font-size:20px;
+    }
+    .Hfou{
+      margin-left: 8%;
     }
     .CV{
         margin-left:140px;
@@ -361,33 +380,34 @@ hr{
         font-size: 12px;
     }
     .Achievement ul{
-      margin-left: 120px;
+      margin-left: 22%;
       text-align: center;
 
     }
     .Pg1{
       font-size: 10px;
       text-align: center;
-      margin-right: 140px;
+      margin-right: 100px;
     }
     .hat{
       float: none;
       display: block;
+      margin-left: 10%;
     }
     hr{
-      margin-right: 170px;
+      margin: 0 23%;
       width: 1%;
     }
     .Work ul{
-      margin-left: 120px;
+      margin-left: 22%;
     }
     .Education ul{
-      margin-left: 120px;
+      margin-left: 22%;
     }
     .Pg2{
       font-size: 12px;
       text-align: center;
-      margin-left:-20px;
+      margin-left:5px;
       width: 50%;
     }
     .MainProject{
@@ -412,7 +432,7 @@ hr{
       font-size: 16px;
     }
     .Text{
-      font-size: 10px;
+      font-size: 8px;
     }
     .foot{
       display: block;
