@@ -211,7 +211,7 @@ hr{
 }
 
 .ContactBar{
-  background-image: url("https://lh6.googleusercontent.com/proxy/2K_WWoeRd6g89_9oaSgBsldJMDxIZq4FgM4quUnc756tFF10C7QHp2Vfc1mgD3iWYtKy4wB4s6m4oX6nlS-sFVz1CHZKDzoQo5mv=s0-d");
+  background-image: url("https://wallpaper-house.com/data/out/7/wallpaper2you_190147.png");
   margin-top: 0;
 }
 .forms{
@@ -313,6 +313,7 @@ hr{
     .navbar ul li a{
       text-decoration: none;
       color: black;
+      font-size: 12px;
       font-family: monospace;
       padding: 10px 22px;
       margin-left: 0;
@@ -456,6 +457,9 @@ hr{
     .Pg5{
       font-size: 20px;
       text-align: center;
+    }
+    .ContactBar{
+      background-image: url("https://i.pinimg.com/474x/28/90/a3/2890a3202c74b842a2d12056721a65f3.jpg");
     }
 
 }
