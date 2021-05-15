@@ -56,6 +56,15 @@ body{
   opacity: 0.8;
   color: white;
 }
+hr{
+  width: 4%;
+  border: none;
+  border-style: dotted;
+  border-top: 15px;
+  border-width: 7px;
+  border-spacing:  7px;
+  color: #344fa1;
+}
 #Project{
   background-color: #3b2e5a;
   opacity: 1.4;
