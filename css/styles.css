@@ -65,15 +65,49 @@ hr{
   border-spacing:  7px;
   color: #344fa1;
 }
+.progress{
+    height: 10px;
+    background: #e9e9ea;
+    border-radius: 15px;
+    margin-bottom: 10;
+    overflow: visible;
+    position: relative;
+}
+.progress .progress-bar{
+    box-shadow: none;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    -webkit-animation: animate-positive 1s;
+    animation: animate-positive 1s;
+}
 #Project{
   background-color: #3b2e5a;
   opacity: 1.4;
   color: white;
 }
+
 #Contact{
   background-color: #3f3697;
   opacity: 0.7;
   color: white;
+}
+.box{
+  box-shadow: 5px 10px 20px 8px #7952B3;
+  margin: 20px;
+}
+.desc{
+  font-family: 'Mate SC', serif;
+}
+.titli{
+  font-family: 'Teko', sans-serif;
+  font-size: 28px;
+}
+@-webkit-keyframes animate-positive{
+    0%{ width: 0; }
+}
+@keyframes animate-positive{
+    0%{ width: 0; }
 }
 @media screen and (max-width:575px) {
   #HOME{
