@@ -78,8 +78,8 @@ hr{
     border: none;
     border-radius: 15px;
     position: relative;
-    -webkit-animation: animate-positive 1s;
-    animation: animate-positive 1s;
+    -webkit-animation: animate-positive 3s;
+    animation: animate-positive 3s;
 }
 #Project{
   background-color: #3b2e5a;
