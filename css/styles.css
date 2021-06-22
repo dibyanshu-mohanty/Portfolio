@@ -78,15 +78,14 @@ hr{
     border: none;
     border-radius: 15px;
     position: relative;
-    -webkit-animation: animate-positive 3s;
-    animation: animate-positive 3s;
+    -webkit-animation: animate-positive 1s;
+    animation: animate-positive 1s;
 }
 #Project{
   background-color: #3b2e5a;
   opacity: 1.4;
   color: white;
 }
-
 #Contact{
   background-color: #3f3697;
   opacity: 0.7;
@@ -95,6 +94,7 @@ hr{
 .box{
   box-shadow: 5px 10px 20px 8px #7952B3;
   margin: 20px;
+  width: 18rem;
 }
 .desc{
   font-family: 'Mate SC', serif;
@@ -111,7 +111,7 @@ hr{
 }
 @media screen and (max-width:575px) {
   #HOME{
-    padding-top: 150px;
+    padding-top: 160px;
   }
   #topname{
     font-size:48px;
@@ -121,5 +121,8 @@ hr{
   }
   #job{
     font-size: 24px;
+  }
+  .box{
+    width: 14rem;
   }
 }
