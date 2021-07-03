@@ -36,9 +36,8 @@ body{
   letter-spacing:2px;
 }
 #About{
-  background-color:#351f39;
+  background-color:#15202b;
   color: white;
-  opacity: 0.95;
 }
 .ps{
   margin-top: 100px;
@@ -52,8 +51,7 @@ body{
   font-family: 'Itim', cursive;
 }
 #Resume{
-  background-color:#312c51;
-  opacity: 0.8;
+  background-color:#1d3e4d;
   color: white;
 }
 hr{
@@ -66,8 +64,8 @@ hr{
   color: #344fa1;
 }
 .progress{
-    height: 10px;
-    background: #e9e9ea;
+    height: 3px;
+    background: #202c39;
     border-radius: 15px;
     margin-bottom: 10;
     overflow: visible;
@@ -82,17 +80,19 @@ hr{
     animation: animate-positive 1s;
 }
 #Project{
-  background-color: #3b2e5a;
-  opacity: 1.4;
+  background-color: #256773;
   color: white;
 }
 #Contact{
-  background-color: #3f3697;
-  opacity: 0.7;
+  background-color: #4fcecf;
+  color:black;
+}
+#Blogs{
+  background-color: #2f909e;
   color: white;
 }
 .box{
-  box-shadow: 5px 10px 20px 8px #7952B3;
+  box-shadow: 5px 10px 20px 8px #20dad1;
   margin: 20px;
   width: 18rem;
 }
@@ -102,6 +102,10 @@ hr{
 .titli{
   font-family: 'Teko', sans-serif;
   font-size: 28px;
+}
+.boxs{
+  box-shadow: 5px 10px 20px 10px #19D3DA;
+  margin: 20px;
 }
 @-webkit-keyframes animate-positive{
     0%{ width: 0; }
