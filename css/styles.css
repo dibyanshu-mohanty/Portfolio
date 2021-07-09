@@ -105,7 +105,8 @@ hr{
 }
 .boxs{
   box-shadow: 5px 10px 20px 10px #19D3DA;
-  margin: 20px;
+  margin: 20px 10px 20px 0;
+  width: 18rem
 }
 @-webkit-keyframes animate-positive{
     0%{ width: 0; }
@@ -129,4 +130,7 @@ hr{
   .box{
     width: 14rem;
   }
+  .boxs{
+    width: 14rem;
+    overflow: hidden;
 }
