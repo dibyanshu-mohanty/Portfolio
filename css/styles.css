@@ -94,7 +94,7 @@ hr{
 .box{
   box-shadow: 5px 10px 20px 8px #20dad1;
   margin: 20px;
-  width: 18rem;
+  width:18rem;
 }
 .desc{
   font-family: 'Mate SC', serif;
@@ -106,7 +106,7 @@ hr{
 .boxs{
   box-shadow: 5px 10px 20px 10px #19D3DA;
   margin: 20px 10px 20px 0;
-  width: 20rem;
+  width: 18rem;
 }
 @-webkit-keyframes animate-positive{
     0%{ width: 0; }
@@ -127,10 +127,6 @@ hr{
   #job{
     font-size: 24px;
   }
-  .box{
-    width: 14rem;
-  }
   .boxs{
-    width: 15rem;
     overflow: hidden;
 }
