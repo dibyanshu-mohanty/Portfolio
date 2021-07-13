@@ -10,6 +10,9 @@ body{
   color: white;
   font-weight: bold;
 }
+.nav-link:hover{
+  color: orange;
+}
 #Home{
   background-image: url("https://wallpapercave.com/wp/wp2757874.gif");
   background-size: cover;
@@ -38,6 +41,21 @@ body{
 #About{
   background-color:#15202b;
   color: white;
+}
+#ContactButton{
+  padding: 10px;
+  width: 8em;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+#ContactButton:hover{
+  background-color: white;
+  color: black;
 }
 .ps{
   margin-top: 100px;
@@ -90,11 +108,12 @@ hr{
 #Blogs{
   background-color: #2f909e;
   color: white;
+  padding-bottom: 40px;
 }
 .box{
   box-shadow: 5px 10px 20px 8px #20dad1;
   margin: 20px;
-  width:18rem;
+  width: 18rem;
 }
 .desc{
   font-family: 'Mate SC', serif;
@@ -103,9 +122,13 @@ hr{
   font-family: 'Teko', sans-serif;
   font-size: 28px;
 }
+.titli1{
+  font-family: 'Teko', sans-serif;
+  font-size: 14px;
+}
 .boxs{
   box-shadow: 5px 10px 20px 10px #19D3DA;
-  margin: 20px 10px 20px 0;
+  margin: 20px;
   width: 18rem;
 }
 @-webkit-keyframes animate-positive{
@@ -127,6 +150,8 @@ hr{
   #job{
     font-size: 24px;
   }
-  .boxs{
-    overflow: hidden;
+  #WE{
+      width: 40%;
+      height: :40%;
+  }
 }
